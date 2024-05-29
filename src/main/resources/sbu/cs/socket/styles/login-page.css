@@ -1,0 +1,57 @@
+.header{
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+}
+
+.bg-1{
+    -fx-background-color: #dfdede;
+}
+
+.nameBox{
+    -fx-font-size: 16px;
+    -fx-padding: 10 20;
+}
+
+.group-name-area{
+    -fx-background-color: #9baecf;
+}
+
+.group-name-text{
+    -fx-font-size: 16px;
+    -fx-padding: 10 20;
+}
+
+.msg-bg-sender{
+    -fx-background-color: #b3cbf5;
+}
+.msg-bg-receiver{
+    -fx-background-color: #94a2f5;
+}
+
+.msg-container{
+    -fx-padding: 5 0;
+    -fx-end-margin: 10;
+}
+
+.msg-sender{
+    -fx-font-size: 12px;
+    -fx-padding: 0 5;
+    -fx-font-weight: bold;
+}
+
+.msg-text{
+    -fx-font-size: 14px;
+    -fx-padding: 4 10;
+}
+
+.msg-date{
+    -fx-font-size: 10px;
+    -fx-padding: 0 3;
+    -fx-font-weight: italic;
+}
+
+.dn-file-btn{
+    -fx-background-radius: 10px;
+    /* -fx-padding: 8 10; */
+}

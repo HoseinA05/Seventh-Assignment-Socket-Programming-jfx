@@ -5,7 +5,7 @@
 1. [Introduction](#introduction-)
 2. [Objectives](#objectives-)
 3. [Assignment Overview](#assignment-overview-)
-   - [Task 1: Group Chat (Sending Text Messages)](#task-1-group-chat-sending-text-messages-)
+   - [Task 1: Group Chat (Sending Text Messages)](#task-1-group-chat-sending-text-TextMessages-)
    - [Task 2: File Transfer (Downloading Text Files from the Server)](#task-2-file-transfer-downloading-text-files-from-the-server-)
         - [Application's `Client-Server API`](#applications-client-server-api-)
 5. [Notes](#notes-)
@@ -16,7 +16,7 @@
 10. [Resources for Further Studying](#some-resources-for-further-studying-)
 
 ## Introduction 📚
-Welcome to your 7th assignment! This assignment focuses on creating a command-line interface (CLI) application using **socket programming** concepts in Java. The objective is to create a robust and efficient mechanism for sending text messages between multiple clients and transferring text files from the server side to the client side.
+Welcome to your 7th assignment! This assignment focuses on creating a command-line interface (CLI) application using **socket programming** concepts in Java. The objective is to create a robust and efficient mechanism for sending text TextMessages between multiple clients and transferring text files from the server side to the client side.
 
 ## Objectives 🔎
 
@@ -29,7 +29,7 @@ Welcome to your 7th assignment! This assignment focuses on creating a command-li
 The assignment comprises two main tasks as following:
 
 ### Task 1: Group Chat (Sending Text Messages) 💬
-In this task, the server will handle requests from clients to send text messages in a group chat. Each client shall be able to read the name of the sender of the massage with the message content in their own terminal. (Make sure that you are using sockets to transfer these massages between the clients and the server)
+In this task, the server will handle requests from clients to send text TextMessages in a group chat. Each client shall be able to read the name of the sender of the massage with the textMessage content in their own terminal. (Make sure that you are using sockets to transfer these massages between the clients and the server)
 
 This task is something like the **massage broadcasting** example you had in you TA's session, so to make it a bit different you are urged to implement a **chat history** feature as well.
 
@@ -76,7 +76,7 @@ Absolutely not! I shall not embark on the arduous task of concocting a summary f
 - Each client request must receive a corresponding server response.
 - Upon client connection, the server prompts the client to choose between file download or group chat options, utilizing the request-response system.
 - For file downloads, the server employs the **file handler** to provide a list of available files and ensures controlled transfer upon client selection.
-- Group chat functionality is facilitated by a **chat handler**, processing and broadcasting messages to connected clients.
+- Group chat functionality is facilitated by a **chat handler**, processing and broadcasting TextMessages to connected clients.
 - The request-response system establishes an organized communication flow, coordinating file downloads and group chat.
 
 
